@@ -32,7 +32,10 @@ export const metadata: Metadata = {
       "Explore German A1 and A2 classes online or in person, plus exam preparation for Goethe-Zertifikat, ÖSD, and telc exams.",
   },
   icons: {
-    icon: [{ url: "/icon.svg", type: "image/svg+xml" }, { url: "/favicon.ico" }],
+    icon: [
+      { url: "/images/favicon.ico", type: "image/x-icon" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
     apple: "/apple-icon",
   },
 };
