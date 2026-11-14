@@ -145,7 +145,7 @@ export default function AboutPage() {
             <h2 id="about-why-heading">Why DeutschWithMe?</h2>
             <p>
               DeutschWithMe is based in Jaffna and focuses especially on
-              beginner and elementary German learners. The project is designed to make the first steps in German clearer and more approachable, with a focus on A1 and A2 learners.
+              beginner and elementary German learners. The project is designed to make the first steps in German clearer and more approachable, with a focus on A1 and A2 learners and the practical language skills they need to start using German in everyday situations.
             </p>
           </div>
           <div className="about-principles">
