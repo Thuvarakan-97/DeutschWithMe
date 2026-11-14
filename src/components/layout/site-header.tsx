@@ -18,7 +18,7 @@ const navigation = [
   { href: "/about", label: "About" },
   { href: "/courses", label: "Courses" },
   { href: "/contact", label: "Contact" },
-  { href: "/#login", label: "Login" },
+  // { href: "/#login", label: "Login" },
 ];
 
 function NavigationLinks({
