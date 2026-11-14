@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8f2e7"/>
+      <stop offset="1" stop-color="#e8e1d3"/>
+    </linearGradient>
+    <linearGradient id="stone" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#e5c992"/>
+      <stop offset="1" stop-color="#b58c52"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" x2="1">
+      <stop offset="0" stop-color="#17191d"/>
+      <stop offset=".5" stop-color="#28282a"/>
+      <stop offset="1" stop-color="#17191d"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#sky)"/>
+  <circle cx="727" cy="177" r="95" fill="#ffce00" opacity=".8"/>
+  <circle cx="164" cy="317" r="135" fill="#fff" opacity=".44"/>
+  <path d="M0 728c139-46 247-22 374-50 144-33 328-19 526 23v399H0z" fill="#b8322b" opacity=".12"/>
+  <path d="M0 830c215-53 416-25 577-48 141-20 240 0 323 28v242H0z" fill="url(#ground)"/>
+
+  <g fill="#191a1c" opacity=".9">
+    <path d="M123 831V572h14v259zm40 0V535h13v296zm596 0V535h13v296zm42 0V572h14v259z"/>
+    <path d="M119 572h77l-38-37zm600 0h77l-38-37z"/>
+  </g>
+
+  <g transform="translate(189 365)">
+    <ellipse cx="261" cy="486" rx="277" ry="28" fill="#08090a" opacity=".24"/>
+    <path d="M0 455h522v33H0z" fill="#997444"/>
+    <path d="M24 414h474v42H24z" fill="url(#stone)"/>
+    <path d="M41 142h440v267H41z" fill="url(#stone)"/>
+
+    <g fill="#4a3a2a">
+      <path d="M54 211h44v198H54zm85 0h44v198h-44zm85 0h44v198h-44zm85 0h44v198h-44zm85 0h44v198h-44z"/>
+    </g>
+    <g fill="#f3e5c7">
+      <path d="M67 239h19v170H67zm85 0h19v170h-19zm85 0h19v170h-19zm85 0h19v170h-19zm85 0h19v170h-19z"/>
+    </g>
+    <path d="M41 180h440v32H41z" fill="#a8824d"/>
+    <path d="M23 145h476v39H23z" fill="#d3b77f"/>
+    <path d="M6 130h510l-26-23H32z" fill="#927044"/>
+    <path d="M51 92h420v39H51z" fill="url(#stone)"/>
+    <path d="M77 72h368v23H77z" fill="#a8824d"/>
+    <path d="M100 48h322v24H100z" fill="#c8aa70"/>
+
+    <g fill="#4a3a2a">
+      <path d="M95 409V291a55 55 0 0 1 110 0v118z"/>
+      <path d="M206 409V291a55 55 0 0 1 110 0v118z"/>
+      <path d="M317 409V291a55 55 0 0 1 110 0v118z"/>
+    </g>
+    <g fill="#f7edda">
+      <path d="M110 409V291a40 40 0 0 1 80 0v118z"/>
+      <path d="M221 409V291a40 40 0 0 1 80 0v118z"/>
+      <path d="M332 409V291a40 40 0 0 1 80 0v118z"/>
+    </g>
+    <path d="M0 455h522v21H0z" fill="#d9bd85"/>
+    <path d="M-17 476h556v16H-17z" fill="#81613a"/>
+
+    <g transform="translate(196 0)" fill="#5a4528" stroke="#5a4528" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M62 47V9h8v38zM29 49h74v9H29z" stroke="none"/>
+      <path d="M43 32c-14-17-26-18-35-15 10 5 15 13 18 23M88 32c14-17 26-18 35-15-10 5-15 13-18 23" fill="none" stroke-width="5"/>
+      <path d="M49 32h33l-4 17H53z"/>
+      <path d="M28 52h75M45 43h42M63 16l-8-8m19 8 8-8M64 7V0" fill="none" stroke-width="4"/>
+      <path d="M48 51l-9-8m47 8 9-8m-31 6v14m14-14v14" fill="none" stroke-width="4"/>
+    </g>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-weight="700">
+    <g transform="rotate(-8 144 211)">
+      <rect x="57" y="185" width="176" height="58" rx="18" fill="#fff" opacity=".92"/>
+      <text x="79" y="224" fill="#a52b23" font-size="31">Hallo!</text>
+    </g>
+    <g transform="rotate(7 715 344)">
+      <rect x="624" y="316" width="213" height="58" rx="18" fill="#fff" opacity=".92"/>
+      <text x="642" y="355" fill="#242424" font-size="25">Guten Tag!</text>
+    </g>
+    <g transform="rotate(-5 128 676)">
+      <rect x="34" y="648" width="216" height="58" rx="18" fill="#fff" opacity=".92"/>
+      <text x="52" y="687" fill="#a52b23" font-size="25">Willkommen</text>
+    </g>
+    <g transform="rotate(5 727 697)">
+      <rect x="648" y="669" width="164" height="58" rx="18" fill="#fff" opacity=".92"/>
+      <text x="674" y="708" fill="#242424" font-size="29">Danke!</text>
+    </g>
+    <g transform="translate(692 471)">
+      <rect width="91" height="18" rx="5" fill="#171717"/>
+      <rect y="18" width="91" height="18" fill="#b8322b"/>
+      <rect y="36" width="91" height="18" rx="5" fill="#ffce00"/>
+    </g>
+    <text x="39" y="1018" fill="#f8f2e7" font-size="24" letter-spacing="3">DEUTSCH · SPRACHE · KULTUR</text>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8e9b8"/>
+      <stop offset="1" stop-color="#fffaf0"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" x2="1">
+      <stop offset="0" stop-color="#252525"/>
+      <stop offset=".52" stop-color="#101010"/>
+      <stop offset="1" stop-color="#252525"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#sky)"/>
+  <circle cx="710" cy="205" r="95" fill="#ffce00" opacity=".8"/>
+  <path d="M0 680c140-88 258-30 390-94 150-74 283-40 510 36v478H0z" fill="#9a3428" opacity=".18"/>
+  <path d="M0 788c206-78 380-39 541-68 153-27 259-3 359 34v346H0z" fill="url(#ground)"/>
+
+  <g fill="#282421">
+    <path d="M157 700h19v-236h-19z"/>
+    <path d="M165 470c-93-36-112-109-118-140 55 18 105 53 127 111-8-65 12-132 49-180 17 74 9 136-26 193 40-48 103-72 162-74-37 57-93 99-166 104 69 4 120 37 151 80-70-4-128-25-167-68 22 50 23 102 6 144-33-46-53-96-52-149-19 41-53 75-100 100 8-53 44-105 92-132-59 23-111 14-148-6 47-31 99-41 153-27-50-25-85-70-97-118 57 21 104 58 134 112z"/>
+    <path d="M758 704h15V536h-15z"/>
+    <path d="M765 543c-66-25-80-77-84-101 39 13 75 38 91 80-6-47 9-95 35-130 12 53 6 98-19 139 29-34 74-52 116-53-27 41-67 71-119 74 49 3 86 27 108 57-50-3-92-18-120-49 16 36 16 73 4 103-24-33-38-69-37-107-13 30-38 54-72 72 6-38 32-76 66-95-42 17-80 10-106-4 34-22 71-30 110-19-36-18-61-50-70-85 41 15 75 42 96 81z"/>
+  </g>
+
+  <g transform="translate(178 770)">
+    <ellipse cx="273" cy="255" rx="291" ry="33" fill="#080808" opacity=".2"/>
+    <path d="M32 51c82-26 163-15 242 30v295c-79-44-160-54-242-29z" fill="#fffaf0" stroke="#181818" stroke-width="10"/>
+    <path d="M274 81c78-45 159-56 242-30v296c-83-25-164-15-242 29z" fill="#fffaf0" stroke="#181818" stroke-width="10"/>
+    <path d="M274 82v294" fill="none" stroke="#181818" stroke-width="10"/>
+    <path d="M75 110c49-11 99-7 148 12M75 151c49-11 99-7 148 12M75 192c49-11 99-7 148 12" fill="none" stroke="#d7c9ae" stroke-linecap="round" stroke-width="9"/>
+    <path d="M325 141h135M325 183h135M325 225h98" fill="none" stroke="#d7c9ae" stroke-linecap="round" stroke-width="9"/>
+    <text x="80" y="286" fill="#9a3428" font-family="Arial, sans-serif" font-size="52" font-weight="700">Hallo!</text>
+    <path d="M210 51c31-31 67-46 107-46" fill="none" stroke="#181818" stroke-linecap="round" stroke-width="9"/>
+  </g>
+
+  <g transform="translate(660 470)">
+    <rect width="100" height="64" rx="8" fill="#171717"/>
+    <rect y="64" width="100" height="64" fill="#b8322b"/>
+    <path d="M8 128h84a8 8 0 0 1 8 8v48H0v-48a8 8 0 0 1 8-8" fill="#ffce00"/>
+  </g>
+</svg>
